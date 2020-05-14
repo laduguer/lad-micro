@@ -17,7 +17,7 @@ int main(void)
     begin();
     while(1)
     {
-        sendString("Hi manneke 4 \n");
+        sendString("Hi there!\n");
         _delay_ms(500);
     }
     return 0;

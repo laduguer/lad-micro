@@ -8,6 +8,8 @@
 //
 // public methods
 //
+void begin();
+void sendString(char *string);
 
 
 #endif //LADUGUER_SERIAL_H
