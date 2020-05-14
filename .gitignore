@@ -1,0 +1,9 @@
+.idea
+*.iml
+
+*.hex
+*.s
+*.elf
+*.o
+
+local
