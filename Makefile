@@ -3,10 +3,10 @@
 # Derived from AVR Crosspack template
 #
 
-DEVICE     = attiny85           		# See avr-help for all possible devices
-CLOCK      = 8000000            		# 8Mhz
-PROGRAMMER = -c usbtiny -P usb  		# For using Adafruit USBtiny
-OBJECTS    = main.o  laduguer/serial.o 	# Add more objects for each .c file here
+DEVICE     = attiny85           								# See avr-help for all possible devices
+CLOCK      = 8000000            								# 8Mhz
+PROGRAMMER = -c usbtiny -P usb  								# For using Adafruit USBtiny
+OBJECTS    = main.o  laduguer/serial.o laduguer/thermistor.o 	# Add more objects for each .c file here
 
 # fuse settings:
 # use http://www.engbedded.com/fusecalc
